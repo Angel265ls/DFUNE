@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #492106;
+    color: white;
+    border-radius: 15px;
+
+}
+.menu{
+    display: flex;
+    
+    
+}
+
+.menu p{
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: #97594A;
+    border-radius: 15px;
+    color: white;
+    font-size: 30PX;
+    
+}
+.content {
+    margin-top: 2rem;
+}
+
+[data-content] {
+    display: none;
+}
+.active[data-content]{
+    display: block;
+}
+
+.Libros{
+    color: white;
+    font-size: 35px;
+    background-color: #97594A;
+    border-radius: 10px;
+}
+
+
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+}
+body{
+    background-color: #FAD5BB;
+}
+
+*{
+    padding:  3px;
+    margin:  0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Nunito' , sans-serif;
+    font-weight: 600;
+}
+
+.txt{
+    
+    color:white;
+    text-align:left;
+    float: left;
+    position: relative;
+    padding:  300px, 300px;
+    background-color: #492106;
+    border-radius: 15px;
+    width: 600px;
+    margin: 1%;
+  
+    
+}
+
+img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+
+
+
+footer{
+  
+    background-color: #492106;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 50px;
+    height: 100%;
+    color: white;
+}
+
+
+
